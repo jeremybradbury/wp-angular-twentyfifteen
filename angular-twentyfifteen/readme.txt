@@ -1,5 +1,5 @@
-=== Twenty Fifteen ===
-Contributors: the WordPress team
+=== Angluar Twenty Fifteen ===
+Contributors: the WordPress team, Jeremy Bradbury
 Requires at least: WordPress 4.1
 Tested up to: WordPress 4.3-trunk
 Version: 1.3
@@ -8,7 +8,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
 
 == Description ==
-Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+The Twentyfifteen theme converted to AngularJS loading via the JSON WP API. Hashes are used for navigation and are being watched so that browser history and permalinking still works. All urls are being converted like this: /page/2 to /#page/2, /?p=123 to /#123, /postname to /#postname (no matter what permalink settings are). Microformats currently unsupported by the public JSON API so standard classes are currently hardcoded. If you navigate away from a /#page to a /page you've the the angular template for incompleteness. *DONE: Nav/Paging, "Single", "Index". *TODO: Archives, Authors, Categories, Tags, Meta and some php template functions. 
 
 * Mobile-first, Responsive Layout
 * Custom Colors
